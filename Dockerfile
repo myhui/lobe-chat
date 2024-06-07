@@ -1,4 +1,5 @@
-FROM node:20-slim AS base
+## FROM node:20-slim AS base
+FROM node:20.14.0-bullseye-slim AS base
 
 ## Sharp dependencies, copy all the files for production
 FROM base AS sharp
